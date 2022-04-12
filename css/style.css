@@ -1,2 +1,22 @@
 /*imports fonts from fonts */
 @import url(./fonts.css);
+
+/*start nav */
+
+.header_area .main-menu .navbar .navbar-brand {
+padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar {
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+    font-family: 'Mukta', cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: black;
+}
+
+/*end nav */
