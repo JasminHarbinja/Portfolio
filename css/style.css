@@ -15,7 +15,7 @@ padding: 0 2rem 0 5rem;
 }
 
 .header_area .main-menu .nav-item .nav-link {
-    font-family: var(--mukta);
+    font: normal 500 15px/2px var(--mukta);
     text-transform: uppercase;
     font-weight: 500;
     padding: 1.7rem;
@@ -23,6 +23,13 @@ padding: 0 2rem 0 5rem;
 }
 
 .header_area .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
