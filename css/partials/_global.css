@@ -34,7 +34,7 @@
     color: black;
 }
 
-.button.primary-button::after, ..button.secondary-button::after {
+.button.primary-button::after, .button.secondary-button::after {
     position: absolute;
     top: -2px;
     left: 2-px;

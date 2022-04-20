@@ -42,9 +42,7 @@ padding: 0 2rem 0 5rem;
 /*end nav */
 
 /* banner */
-.site-main .site-banner {
-    background: url() no-repeat 0% 50%;
-}
+
 .site-main .site-banner .site-title h3 {
     padding-top: 35%;
     font-weight: 500;
@@ -76,3 +74,23 @@ padding: 0 2rem 0 5rem;
 
 
 /*end banner*/
+
+/* about */
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2>span {
+    display: block;
+    font: normal bold 49px/60px var(--mukta);
+    letter-spacing: 21px;
+    
+}
+
+.site-main .about-area .about-title .paragraph>p {
+    padding: .4rem 0;
+}
+
+
+/* end about*/
